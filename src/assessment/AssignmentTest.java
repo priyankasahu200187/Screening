@@ -19,7 +19,7 @@ public class AssignmentTest {
 
 		try{					//this is used to execute code if the exception occurs on file not found
 
-		FileReader fr=new FileReader("C:\\Users\\ravin\\Desktop\\Qspider\\input.txt");
+		FileReader fr=new FileReader("C:\\Users\\ravin\\Desktop\\HR_domain\\mywork\\files\\input.txt");
 
 		reader=new BufferedReader(fr);
 		Line=reader.readLine();
